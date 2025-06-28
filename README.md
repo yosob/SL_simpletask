@@ -39,8 +39,8 @@ void setup() {
   Serial.begin(9600);
   SchedulerInit();            // 初始化调度器
 
-  TaskCreate(task1, 500, task1_id);   // 创建任务1
-  TaskCreate(task2, 500, task2_id);   // 创建任务2
+  TaskCreate(&task1, 500, task1_id);   // 创建任务1
+  TaskCreate(&task2, 500, task2_id);   // 创建任务2
 }
 
 void loop() {
