@@ -1,4 +1,4 @@
-#include "simpletask.h"
+#include "./SL_simpletask.h"
 int task1_id = 1;       // 任务1 id
 int task2_id = 3;       // 任务2 id
 
