@@ -1,4 +1,4 @@
-#include "simpletask.hpp"
+#include "SL_simpletask.h"
 #include <Arduino.h>
 
 Task_MS taskList[MAX_TASKS];                // 任务列表
@@ -79,6 +79,9 @@ void SchedulerInit() {
   }
 }
 
+/*
+调度器运行函数，在loop中调用，会不断调用任务列表中的任务
+*/
 void SchedulerRun() {
   unsigned long currentTime = millis();
   

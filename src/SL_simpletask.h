@@ -1,5 +1,5 @@
-#ifndef __SIMPLE_TASK_HPP
-#define __SIMPLE_TASK_HPP
+#ifndef __SIMPLE_TASK_H
+#define __SIMPLE_TASK_H
 #include "stdbool.h"
 
 typedef struct {
